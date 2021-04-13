@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color: rgb(19, 18, 18);
+    height: 100vh;
+    width: 100%;
+    border : solid rgb(248, 248, 58) 20px;
+    display: flex;
+    color : white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    text-align: right;
+    margin-left: 20rem;
+}
+header{
+    margin: 4rem 0rem 3rem 0rem;
+    display: flex;
+    flex-direction: column;
+    color:whitesmoke;
+}
+section{
+    width: 100%;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.searchbar-container{
+    height: 5vh;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.search-btn,
+input{
+    padding : 0.5rem;
+    margin : 0.2rem;
+
+}
+input{
+    width : 50%;
+}
+
+li{
+    list-style: none;
+    font-size: 1.1rem;
+}
+.results{
+    display: flex;
+    height : 50vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    border: solid rgb(208, 223, 128) 7px;
+    width: 55%;
+    opacity: 0;
+}
+img{
+    max-height: 85%;
+    height: auto;
+    max-width : 40%;
+    border: solid white 10px;
+    transition: all ease 1s;
+    margin-left: 1rem;
+}
+.search-btn{
+    background: rgb(175, 175, 74);
+    border: none;
+    color: whitesmoke;
+    cursor: pointer;
+    width: 5rem;
+    height: 100%;
+}
+ul{
+    margin : 2rem;
+    width : 50%;
+    max-height: 90%;
+}
